@@ -1,0 +1,135 @@
+
+body
+{
+padding: 2px;
+margin: 0px;
+
+}
+.header
+{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+}
+.grid-box
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+}
+.grid-item
+{
+    
+
+    height: 100%;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+
+}
+.footer
+{
+    padding: 0px;
+    margin: 3px;
+    height: 40px;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.mid
+{
+    padding: 0px;
+    display:inline-block;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.products
+{
+    margin: -1px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgba(236, 17, 17, 0.897);
+
+    color: white;
+}
+.banner
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: red;
+    
+    color: white;
+}
+.copy
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgba(247, 13, 13, 0.884);
+
+    color:white;
+}
+
+.blog
+{
+    margin: -1px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgba(253, 31, 15, 0.911);
+    
+    color:white
+}
+
+nav
+{
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+background-color: rgb(48, 58, 196);
+display: inline-flex;
+justify-content:right;
+align-items:center;
+}
+
+nav ul li
+{
+    
+    display:inline-block;
+    justify-content: right;
+    align-items: center;
+    padding: 15px;
+  
+}
+nav ul li a
+{
+
+text-decoration: none;
+
+    color: white;
+}
